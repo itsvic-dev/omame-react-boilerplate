@@ -2,9 +2,10 @@
 ## includes
 - MIT license
 - TypeScript
-- Tailwind CSS
-- twin.macro
+- Tailwind CSS with twin.macro
 - ESLint
+- Webpack 5
+- Babel
 
 ## how to use
 ### linting
@@ -14,6 +15,9 @@
 ### building
 - `yarn build`
 - `yarn build:production`
+
+### testing with Webpack Dev Server
+- `yarn start` (uses port 9000)
 
 ### deploying
 figure it out

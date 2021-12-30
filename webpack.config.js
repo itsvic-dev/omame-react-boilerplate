@@ -29,7 +29,7 @@ module.exports = {
 				test: /\.(png|jp(e?)g|gif)$/,
 				loader: 'file-loader',
 				options: {
-					name: 'images/[name].[hash:8].[ext]'
+					name: 'images/[contenthash].[ext]'
 				}
 			},
 			{
@@ -48,7 +48,9 @@ module.exports = {
 		symlinks: false
 	},
 	devServer: {
-		contentBase: './public',
+		static: {
+			directory: path.join(__dirname, 'public')
+		},
 		compress: true,
 		port: 9000,
 		historyApiFallback: true

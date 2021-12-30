@@ -4,11 +4,9 @@ import omame from '@/assets/icon.jpg'
 
 const App = (): JSX.Element => {
 	return (
-		<div css={tw`w-full h-full flex justify-center items-center`}>
-			<div>
-				<img src={omame} css={tw`rounded-full w-1/2 h-auto shadow-lg mx-auto mb-16`}/>
-				<p css={tw`text-2xl`}>welcome to <span css={tw`font-mono`}>omame&apos;s React boilerplate</span></p>
-			</div>
+		<div css={tw`h-screen flex flex-col gap-8 justify-center items-center`}>
+			<img src={omame} css={tw`rounded-full w-64 h-auto shadow-lg mx-auto`}/>
+			<p css={tw`text-2xl`}>welcome to omame&apos;s React boilerplate</p>
 		</div>
 	)
 }
