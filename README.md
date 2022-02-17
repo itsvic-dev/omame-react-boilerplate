@@ -1,3 +1,10 @@
+# IMPORTANT NOTE
+I've abandoned this repository, as I'm working on a cleaner *Preact* boilerplate.
+
+This repository is archived as I'm not going to be maintaining it, the rest of the README is included for archival purposes.
+
+---
+
 # omame's React boilerplate
 ## includes
 - MIT license
